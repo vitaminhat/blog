@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import 'tale';
+
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Import Milan font - Regular */
+@font-face {
+  font-family: 'Milan';
+  src: url('fonts/Milan-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Import Milan font - Semibold */
+@font-face {
+  font-family: 'Milan';
+  src: url('fonts/Milan-SemiBold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Import Milan font - Medium */
+
+@font-face {
+  font-family: 'Milan';
+  src: url('fonts/Milan-Medium.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: Proxima;
+  src: url("fonts/Proxima Nova Regular Italic.otf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Proxima;
+  src: url("fonts/Proxima Nova Bold Italic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DMMono";
+  src: url("fonts/DMMono-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DMMono";
+  src: url("fonts/DMMono-Medium.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
