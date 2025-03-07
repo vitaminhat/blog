@@ -1,2 +1,2 @@
-# write
-For a moment I was thinking about writing
+# Blog or Website? I'm not really sure.
+
