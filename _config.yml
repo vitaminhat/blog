@@ -1,8 +1,8 @@
 # Site settings
 title:          Nhật
 description:    ""
-baseurl:        "/write"
-url:            "https://nhatminhbui.github.io"
+baseurl:        "/blog"
+url:            "https://vitaminhat.github.io"
 
 # Google Analytics
 # google_analytics: UA—XXXXXXXX-X
@@ -10,8 +10,8 @@ url:            "https://nhatminhbui.github.io"
 # Author
 author:
   name:         Nhat Bui
-  url:          https://nhatminhbui.github.io
-  email:        nhatbui@gmx.com
+  url:          https://vitaminhat.github.io
+  email:        
 
 # Build settings
 markdown:       kramdown
@@ -35,7 +35,7 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       7
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
