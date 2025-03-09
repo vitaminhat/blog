@@ -19,21 +19,21 @@
 
     &:hover {
       opacity: 1;
+      transition: color 0.3s ease;
+    }
+
+    &::after {
+      content: " ↑";  /* Arrow character */
+      position: relative;
+      left: 0;
+      transition: bottom 0.3s ease;  /* Moves the arrow on hover */
+    }
+
+    &:hover::after {
+      bottom: 5px;  /* Moves arrow to the right on hover */
     }
   }
 
-  .arrow {
-    @include transition(all .3s ease-out);
-    color: $default-color;
-    position: absolute;
-
-    &:hover,
-    &:focus {
-      opacity: .6;
-      text-decoration: none;
-      color: $my-red;
-    }
-  }
 
   .left {
     left: 0;
